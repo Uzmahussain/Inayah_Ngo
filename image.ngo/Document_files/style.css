@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+
+.main-header {
+    background-image: url(https://sshrishti.org/assets/img/latest/Slide-20-08-19.webp);
+    height: 100vh;
+    background-size: cover;
+}
+
+/* navigation css(start) */
+.nav-container {
+    display: flex;
+    background-color: rgba(16, 4, 4, 0.578);
+    height: 10%;
+}
+
+.nav-items {
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.nav-items ul li {
+    list-style: none;
+    float: right;
+    margin-left: .2em;
+    padding: .5em;
+
+}
+
+.logo {
+    margin-top: .1em;
+    margin-left: 1.5em;
+}
+
+.nav-items ul li a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: .5em;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+
+.nav-items ul li a:hover {
+    color: rgb(30, 0, 255);
+
+}
+
+.text-section {
+    text-align: center;
+    margin-top: 10%;
+    line-height: 13vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.heading {
+    font-size: 4em;
+}
+
+.heading1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(255, 119, 0);
+}
+
+.button2 {
+    margin-left: 650px;
+    margin-top: 40px;
+}
+
+.btn1 {
+    margin: 18px;
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 119, 0);
+    color: rgb(0, 0, 0);
+    border: solid rgb(10, 10, 10);
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn1:hover {
+    background-color: rgba(255, 0, 0, 0.904);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+/* navigation css (end) */
+
+/* next page (card) css (start) */
+
+h5 {
+    float: right;
+    margin-right: 150px;
+}
+
+.heading2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.work-container {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin-top: 30px;
+}
+
+.work-body {
+    height: 200px;
+    width: 350px;
+    flex-wrap: wrap;
+    background-color: rgba(162, 159, 171, 0.644);
+    color: rgb(5, 2, 2);
+    margin-top: 13px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.685);
+    margin: auto;
+
+}
+
+.icons {
+    margin-top: 10px;
+    color: red;
+}
+
+.charity {
+    margin-right: 70px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.text::before {
+    content: '';
+    position: absolute;
+    background-color: #ff0000;
+    height: 2px;
+    margin-top: 70px;
+    width: 60px;
+    margin-left: -30px;
+}
+
+.cause {
+    margin-top: 15px;
+    font-size: 25px;
+    margin-right: 130px;
+}
+
+.fundraising {
+    margin-top: 15px;
+    font-size: 25px;
+    margin-right: 95px;
+}
+
+/* next page (card) css (end) */
+
+
+/* 
+Team container css(Start) */
+
+.team-head {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+
